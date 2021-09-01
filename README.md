@@ -1,5 +1,14 @@
 # Valuer
 
+## easy value parsing
+
+    @api.get '/v1/image/:format' do
+        width = Valuer.value Integer, params['width'], default: 1280, min: 1, max: 4000
+        height = Valuer.value Integer, params['height'], default: 900, min: 1, max: 10_000
+        delay = Valuer.value Float, params['delay'], default: 0.0, min: 0.0, max: 10
+
+## more examples
+
     require "valuer"
 
     Valuer.value Integer, "20"
