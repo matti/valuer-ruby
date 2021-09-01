@@ -11,6 +11,7 @@ Layout/LineLength:
 
 AllCops:
   NewCops: enable
+  TargetRubyVersion: 2.5
 
 Metrics/CyclomaticComplexity:
   Enabled: false
@@ -20,3 +21,4 @@ Metrics/MethodLength:
   Enabled: false
 Metrics/PerceivedComplexity:
   Enabled: false
+

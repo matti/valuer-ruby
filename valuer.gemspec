@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
   spec.summary       = "a person whose job is to estimate the value of something that is to be purchased."
   spec.homepage      = "https://github.com/matti/valuer-ruby"
   spec.license       = "MIT"
-  spec.required_ruby_version = Gem::Requirement.new(">= 2.4.0")
+  spec.required_ruby_version = Gem::Requirement.new(">= 2.5.0")
 
   spec.metadata["homepage_uri"] = spec.homepage
 
